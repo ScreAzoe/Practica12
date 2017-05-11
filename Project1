@@ -1,0 +1,5 @@
+import random 
+import pickle
+x =[[i,j] for i in range (250) for j in range (250)]
+l =random.sample (x, 500)
+print (l)
